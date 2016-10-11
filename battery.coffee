@@ -1,9 +1,10 @@
-command: "pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f1 -d';'"
+command: "pmset -g batt"
 
-refreshFrequency: 150000 # ms
+refreshFrequency: '1s'
 
-render: (output) ->
-  "<i>⚡</i>#{output}"
+render: (output) -> """
+  <span>#{output.match(/\d+%/)[0]}</span>
+"""
 
 style: """
   -webkit-font-smoothing: antialiased
@@ -11,7 +12,5 @@ style: """
   font-family: Monaco
   top: .25em
   right: 145px
-  color: #FABD2F
-  span
-    color: #9C9486
+  color: #DDFFFF
 """

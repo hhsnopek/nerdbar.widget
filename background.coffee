@@ -1,7 +1,6 @@
 refreshFrequency: false
 
-render: (output) ->
-  ""
+render: (output) -> ""
 
 style: """
   top: 0
@@ -9,6 +8,6 @@ style: """
   font-size: 11px
   height: 2em
   width: 100%
-  background-color: #282B34
+  border-bottom: 2px solid #4F2F47
   z-index: -1
 """
