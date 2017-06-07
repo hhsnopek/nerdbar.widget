@@ -1,0 +1,23 @@
+{
+  "name": "nerdbar.widget",
+  "version": "1.0.0",
+  "description": "![Screenshot](screenshot.png)",
+  "main": "index.js",
+  "dependencies": {
+    "wallpaper": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhsnopek/nerdbar.widget.git"
+  },
+  "author": "Henry Snopek <hhsnopek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhsnopek/nerdbar.widget/issues"
+  },
+  "homepage": "https://github.com/hhsnopek/nerdbar.widget#readme"
+}

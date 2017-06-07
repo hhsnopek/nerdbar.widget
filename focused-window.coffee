@@ -7,7 +7,7 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #fff
+  color: #333
   font-size: 11px
   font-family: Monaco
   height: 16px
